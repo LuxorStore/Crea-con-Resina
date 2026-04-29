@@ -28,11 +28,8 @@ import {
 const Navbar = () => (
   <nav className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100 px-4 py-3 flex justify-between items-center shadow-xs">
     <div className="flex items-center gap-2">
-      <div className="w-8 h-8 bg-fuchsia-vibrant rounded-md flex items-center justify-center">
-        <Hand className="text-white w-4 h-4 fill-current" />
-      </div>
-      <span className="font-sans font-black text-xl tracking-tighter">DISEÑA Y CREA <span className="text-fuchsia-vibrant">CON RESINA</span></span>
-    </div>
+  <img src="/logo.png" alt="Diseña y Crea con Resina" className="h-12 w-auto" />
+</div>
     <div className="hidden md:flex gap-8 items-center">
       <a href="#metodo" className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-green-600 transition">El Método</a>
       <a href="#bonos" className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-green-600 transition">Bonos</a>
