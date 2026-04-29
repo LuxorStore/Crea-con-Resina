@@ -466,7 +466,7 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto px-4">
       <div className="flex flex-col md:flex-row justify-between items-center gap-12 border-b border-white/5 pb-16 mb-12">
         <div className="space-y-4 text-center md:text-left">
-           <span className="font-sans font-black text-3xl tracking-tighter">DISEÑA Y CREA <span className="text-fuchsia-vibrant">CON RESINA</span></span>
+           <img src="/logo.png" alt="Diseña y Crea con Resina" className="h-20 w-auto mx-auto md:mx-0" />
            <p className="text-slate-500 text-sm max-w-sm">
             La formación líder en Latinoamérica para emprendedoras de accesorios artesanales.
            </p>
