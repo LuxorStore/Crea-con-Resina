@@ -28,7 +28,9 @@ import {
 const Navbar = () => (
   <nav className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100 px-4 py-3 flex justify-between items-center shadow-xs">
     <div className="flex items-center gap-2">
-  <img src="/logo.png" alt="Diseña y Crea con Resina" className="h-12 w-auto" />
+  <div className="flex items-center gap-4 justify-center md:justify-start">
+  <img src="/logo.png" alt="Logo" className="h-16 w-16 rounded-full object-cover border-2 border-fuchsia-500" />
+  <span className="font-sans font-black text-3xl tracking-tighter">DISEÑA Y CREA <span className="text-fuchsia-vibrant">CON RESINA</span></span>
 </div>
     <div className="hidden md:flex gap-8 items-center">
       <a href="#metodo" className="text-xs font-bold uppercase tracking-widest text-slate-400 hover:text-green-600 transition">El Método</a>
